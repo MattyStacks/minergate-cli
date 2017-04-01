@@ -31,3 +31,5 @@ RUN \
 
 
     ENTRYPOINT ["minergate-cli"]
+
+#adding a comment
