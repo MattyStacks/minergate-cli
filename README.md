@@ -12,13 +12,38 @@ Will start the container detached, and start mining Fantomcoin and monero togeth
 docker run -d minergate-cli -user {email} -fcn+xmr
 ```
 
-Will start the container only using two cores mining Fantomcoin and Monero
+Will start the container only using two cores mining Fantomcoin and Monero and 2 mining bytecoin
 ```
 docker run -d minergate-cli -user {email} -bcn 2 -fcn+mxr 2
 ```
 
 
 #### Currency Options
-- `xmr` Monero
-- `fcn` Fantomcoin
-- `dsh` Dashcoin
+- `bcn`  Bytecoin
+- `xmr`  Monero
+- `fcn`  Fantomcoin
+- `dsh`  Dashcoin
+- `qcn`  QuazarCoin
+- `xdn`  DigitalNote
+- `mcn`  MonetaVerde
+- `aeon` Aeon coin
+- `inf8` Infinium-8
+
+#### Currency Options
+These are the coins you can mine together.
+
+Fantomcoin combinations
+- `fcn+bcn`
+- `fcn+xmr`
+- `fcn+qcn`
+- `fcn+xdn`
+- `fcn+aeon`
+- `fcn+dsh`
+
+MonetaVerde Combinations
+- `mcn+bcn`
+- `mcn+xmr`
+- `mcn+qcn`
+- `mcn+xdn`
+- `mcn+aeon`
+- `mcn+dsh`
