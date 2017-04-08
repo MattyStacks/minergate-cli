@@ -14,7 +14,7 @@ docker run -d minergate-cli -user {email} -fcn+xmr
 
 Will start the container only using two cores mining Fantomcoin and Monero and 2 mining bytecoin
 ```
-docker run -d minergate-cli -user {email} -bcn 2 -fcn+mxr 2
+docker run -d minergate-cli -user {email} -bcn 2 -fcn+xmr 2
 ```
 
 
