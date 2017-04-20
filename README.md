@@ -17,6 +17,10 @@ Will start the container only using two cores mining Fantomcoin and Monero and 2
 docker run -d minergate-cli -user {email} -bcn 2 -fcn+xmr 2
 ```
 
+I have also set up variables so that you can use them as well.
+- `userName` Email Address
+- `currency` Pick from below
+- `cores` Number of cores to use
 
 #### Currency Options
 - `bcn`  Bytecoin
