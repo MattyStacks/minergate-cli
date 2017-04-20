@@ -31,4 +31,4 @@ RUN \
 
 
     ENTRYPOINT ["minergate-cli"]
-    CMD ["-user","$USERNAME","-$CURRENCY","$CORES"]
+    CMD -user $USERNAME -$CURRENCY -$CORES
