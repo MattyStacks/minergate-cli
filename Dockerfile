@@ -2,9 +2,9 @@ FROM		ubuntu:16.04
 
 # global environment settings
 ENV MINERGATE_INSTALL="https://minergate.com/download/deb-cli"
-ENV userName="email@email.com"
-ENV currency="xmr"
-ENV cores="4"
+ENV USERNAME email@email.com
+ENV CURRENCY xmr
+ENV CORES 4
 
 
 # install packages
@@ -31,4 +31,4 @@ RUN \
 
 
     ENTRYPOINT ["minergate-cli"]
-    CMD ["-user","$userName","-$currency","-$cores"]
+    CMD ["-user","$USERNAME","-$CURRENCY","$CORES"]
