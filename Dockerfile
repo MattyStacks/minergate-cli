@@ -2,13 +2,12 @@ FROM		ubuntu:16.04
 
 # global environment settings
 ENV MINERGATE_INSTALL="https://minergate.com/download/deb-cli"
-<<<<<<< HEAD
+
+# still need to work out the ENV settings
 ENV USERNAME email@email.com
 ENV CURRENCY xmr
 ENV CORES 4
 
-=======
->>>>>>> parent of eb86ab2... added command and variables
 
 # install packages
 RUN \
