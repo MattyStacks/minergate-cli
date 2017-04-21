@@ -17,20 +17,6 @@ Will start the container only using two cores mining Fantomcoin and Monero and 2
 docker run -d minergate-cli -user {email} -bcn 2 -fcn+mxr 2
 ```
 
-<<<<<<< HEAD
-### Variables
-I have also set up variables so that you can use them as well.
-- `userName` Email Address
-- `currency` Pick from below
-- `cores` Number of cores to use
-=======
->>>>>>> parent of eb86ab2... added command and variables
-
-```
-sudo docker run -d -e userName='email@email.com' -e currency='xmr' -e cores='4' minergate-cli
-```
-
-
 #### Currency Options
 - `bcn`  Bytecoin
 - `xmr`  Monero
