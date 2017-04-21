@@ -33,9 +33,5 @@ RUN \
     rm -rf /var/tmp/*
 
 
-<<<<<<< HEAD
+
     ENTRYPOINT ["minergate-cli"]
-    CMD -user $USERNAME -$CURRENCY $CORES
-=======
-    ENTRYPOINT ["minergate-cli"]
->>>>>>> parent of eb86ab2... added command and variables
