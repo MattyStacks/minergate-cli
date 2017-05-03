@@ -1,4 +1,4 @@
-FROM		ubuntu:16.04
+FROM	ubuntu:16.04
 
 # global environment settings
 ENV MINERGATE_INSTALL="https://minergate.com/download/deb-cli"
